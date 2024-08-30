@@ -1,0 +1,21 @@
+.star-rating {
+    display: flex;
+    direction: row-reverse;
+    font-size: 2rem;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .star {
+    color: grey;
+    transition: color 0.3s;
+  }
+  
+  .star.selected {
+    color: goldenrod; /* Change this color as desired */
+  }
+  
+  .star:hover {
+    color: goldenrod;
+  }
+  
